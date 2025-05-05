@@ -14,7 +14,7 @@ class SortVector{
                 j = 0;
                 for (int i = 0; i < sortedVector.size() - 1; i++){
                     if (sortedVector[i] > sortedVector[i + 1]){
-                        j++;
+                        j++; // <-- swap counter
                         cachedValue = sortedVector[i];
                         sortedVector[i] = sortedVector[i + 1];
                         sortedVector[i + 1] = cachedValue;
